@@ -1,25 +1,25 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
+    addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    mustermann (1.0.1)
-    naughty_or_nice (2.1.0)
+    mustermann (1.0.3)
+    naughty_or_nice (2.1.1)
       addressable (~> 2.3)
-      public_suffix (~> 2.0)
-    public_suffix (2.0.5)
-    rack (2.0.3)
-    rack-protection (2.0.0)
+      public_suffix (>= 2.0, < 4.0)
+    public_suffix (3.0.3)
+    rack (2.0.6)
+    rack-protection (2.0.5)
       rack
-    sinatra (2.0.0)
+    sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.0)
+      rack-protection (= 2.0.5)
       tilt (~> 2.0)
     swot (1.0.0)
       naughty_or_nice (~> 2.0)
       public_suffix
-    tilt (2.0.8)
+    tilt (2.0.9)
 
 PLATFORMS
   ruby
@@ -29,4 +29,4 @@ DEPENDENCIES
   swot
 
 BUNDLED WITH
-   1.15.4
+   1.16.2
