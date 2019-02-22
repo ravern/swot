@@ -1,6 +1,12 @@
 require 'sinatra'
 require 'swot'
 
+set :port, ENV['PORT']
+
+if ENV['PRODUCTION']
+	set :environment, :production
+end
+
 get '/api/:domain' do
   domain = params['domain']
   is_academic = Swot::is_academic?(domain)
